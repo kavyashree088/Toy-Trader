@@ -1,2 +1,2 @@
 # Toy-Trader
-This is Pooja 
+This is Pooja initial set up
