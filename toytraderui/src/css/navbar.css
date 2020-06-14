@@ -1,0 +1,14 @@
+.navbar {
+  background: linear-gradient(#00e379, #009a3e);
+  min-height: 80px;
+}
+
+.navHeader {
+  color: #ffc300;
+  font-family: "Alfa Slab One";
+}
+.right-margin {
+  margin-right: 10px;
+  border: 2px solid;
+  font-weight: bold;
+}
