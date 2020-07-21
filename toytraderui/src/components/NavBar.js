@@ -4,6 +4,10 @@ import image from "../images/logo.jpg";
 import "../css/navbar.css";
 
 export default class NavBar extends Component {
+  onLogin = () => {
+    this.props.history.push("/LoginPage");
+  };
+
   render() {
     return (
       <Navbar className="navbar">
@@ -18,7 +22,11 @@ export default class NavBar extends Component {
           <b className="navHeader"> Toy Trader</b>
         </Navbar.Brand>
         <Nav className="ml-auto">
-          <Button className="right-margin" variant="outline-warning">
+          <Button
+            onClick={this.onLogin}
+            className="right-margin"
+            variant="outline-warning"
+          >
             Login
           </Button>
           <Button variant="danger">Sign Up</Button>
